@@ -54,7 +54,7 @@ Below are the screenshots used as visual reference during practice:
 
 If you'd like to give feedback or collaborate in future learning projects:
 
-- 📧 Email: **nandan.sumit.sn@gmail.com**
+- 📧 Email: **sumitnandan2025@gmail.com**
 - 📌 GitHub: [sumitnandan2411](https://github.com/sumitnandan2411)
 
 ---
