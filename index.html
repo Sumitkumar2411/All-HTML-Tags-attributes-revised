@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Resume</title>
+</head>
+<body>
+
+
+  <!-- HEADER section -->
+  <header>
+    <h1>Sumit Kumar</h1>
+    <p><strong>Student & Aspiring Developer</strong></p>
+    <nav>
+      <ul>
+        <li><a href="#about" title="About Me">About</a></li>
+        <li><a href="#education" title="My Education">Education</a></li>
+        <li><a href="#skills" title="My Skills">Skills</a></li>
+        <li><a href="#projects" title="My Projects">Projects</a></li>
+        <li><a href="#contact" title="Contact Me">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- MAIN section -->
+  <main>
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I am <mark>Sumit</mark>, a passionate coder who loves to build web projects.</p>
+ 
+      <figure>
+        <img src="./IMG-20250706-WA0001(1).jpg" alt="Profile Photo of me" width="200" />
+        <figcaption>This is me!</figcaption>
+      </figure>
+
+    </section>
+
+
+    <!-- EDUCATION -->
+    <section id="education">
+      <h2>Education</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Degree</th>
+            <th>Institute</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        
+        <tbody>
+          <tr>
+            <td>Bachelor in Business Administration</td>
+            <td>Sri Dev Suman Uttarakhand University</td>
+            <td><time datetime="2020">2020</time></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript (Basic)</li>
+        <li>React</li>
+        <li>Next JS</li>
+      </ul>
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <article>
+        <h3>My Portfolio Website</h3>
+        <p>This website showcases my projects and skills.</p>
+      </article>
+      <aside>
+        <p><em>Tip:</em> I'm learning & build real projects now.</p>
+      </aside>
+      <video width="320" height="240" controls>
+        <source src="intro.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+
+    <!-- CONTACT FORM -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Send a Message</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required /><br /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Your email" required /><br /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="5" placeholder="Your message"></textarea><br /><br />
+
+          <label for="reason">Reason for Contact:</label>
+          <select id="reason" name="reason">
+            <option value="hire">Hiring</option>
+            <option value="query">Query</option>
+            <option value="collab">Collaboration</option>
+          </select><br /><br />
+
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <!-- IFRAME -->
+    <section>
+      <h2>My Location</h2>
+      <iframe src="https://maps.google.com" width="300" height="200" title="Google Maps"></iframe>
+    </section>
+
+  </main>
+
+
+
+  <!-- FOOTER section -->
+  <footer>
+    <p>&copy; <time datetime="2025">2025</time> Sumit Kumar | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
